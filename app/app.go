@@ -14,10 +14,10 @@ import (
 	"appengine/memcache"
 	"appengine/urlfetch"
 
-	"code.google.com/p/rsc/appfs/fs"
-	_ "code.google.com/p/rsc/appfs/server"
-	_ "code.google.com/p/rsc/blog/post"
-	"code.google.com/p/rsc/issue/dashboard"
+	"github.com/amrhassan/rsc/appfs/fs"
+	_ "github.com/amrhassan/rsc/appfs/server"
+	_ "github.com/amrhassan/rsc/blog/post"
+	"github.com/amrhassan/rsc/issue/dashboard"
 )
 
 func init() {
